@@ -1,0 +1,164 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Selamat Datang Teratas */
+.GreetingsArea {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F4C81;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#Greetings{
+    font-size: 20px;
+    color: #f4f4f4;
+    font-family: sans-serif;
+}
+
+
+
+/* Navbar */
+.navbarContainer {
+    display: flex;
+    margin: 0;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    z-index: 2;
+    position: sticky;
+    top: .1px;
+}
+#home, #pendaftaran, #contact {
+    margin: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #666363;
+    font-weight: 550;
+}
+#Pendaftaran{
+    color: #0F4C79;
+}
+#home:hover, #pendaftaran:hover, #contact:hover {
+    color: #0F4C81;
+    font-size: 16.5px;
+    font-weight: 700;
+    animation-duration: .5ms ;
+}
+
+
+
+/* JUKNIEZZZZZZZZZZZ */
+.JuknisContainer {
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.Juknishref {
+    margin: 15 15 15 15px;
+    width: 300px;
+    height: 80px;
+    background-color: #0F4C81;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#TeksJuknis {
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #f4f4f4;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* PENGUMUMAN */
+.PengumumanStart {
+    width: auto;
+    height: 60px;
+    background-color: #0F4C79;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PengumumanContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    background-color: #ebebeb;
+    padding-top: 30px;
+}
+.Pengumuman1, .Pengumuman2, .Pengumuman3, .Pengumuman4, .Pengumuman5, .Pengumuman6 {
+    margin-top: auto;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 380px;
+    height: auto;
+    background-color: #fcfcfcf2;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 28px 17px 10px 23px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 28px 17px 10px 23px rgba(0,0,0,0);
+}
+.Pengumuman1, .Pengumuman2, .Pengumuman3 {
+    margin-top: 5px !important; 
+}
+.thumbnail {
+    width: 380px;
+    height: 230px;
+}
+.LinkPromosi {
+    text-decoration: none;
+    color: #000000;
+}
+.TeksPengumuman {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* FOOTER */
+#Footer {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 280px;
+    background-color: #252525;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: verdana, sans-serif;
+}
+.h3ContactContainer {
+    width: auto;
+    height: 50px;
+    margin: 30px;
+}
+.GB {
+    font-family: verdana, sans-serif;
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
